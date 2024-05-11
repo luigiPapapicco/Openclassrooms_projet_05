@@ -104,6 +104,7 @@ header {
 	background-color: var(--secondary-color);
 }
 
+/* **************************bannner *************** */
 #banner {
 	display: flex;
 	flex-direction: column;
