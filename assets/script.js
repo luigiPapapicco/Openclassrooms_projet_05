@@ -84,7 +84,7 @@ right_btn.addEventListener("click", () => { // Au clic sur la flèche droite
 left_btn.addEventListener("click", () => {
     currentSlideIndex--; // indexEncour décrementer de 1
     if (currentSlideIndex < 0) { // si indexEncour est inferieur a 0 
-        currentSlideIndex = slides.length - 1; // alor indexEncour egal a la longueur du dictionnaire - 1
+        currentSlideIndex = slides.length - 1; // alors indexEncour egal a la longueur du dictionnaire - 1
     }
     updateSlide(currentSlideIndex);
 });
