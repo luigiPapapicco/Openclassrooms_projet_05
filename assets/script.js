@@ -19,11 +19,11 @@ const slides = [
 
 // Ajout des eventListener sur les flèches
 const left_btn = document.querySelector(".arrow_left");
-const leftClicked = left_btn.addEventListener("click", (event) => {
+left_btn.addEventListener("click", () => {
 	console.log("J'ai cliqué sur ma fleche gauche");
 })
 const right_btn = document.querySelector(".arrow_right");
-const rightClicked = right_btn.addEventListener("click", (event) => {
+right_btn.addEventListener("click", () => {
 	console.log("J'ai cliqué sur ma fleche droite");
 })
 
