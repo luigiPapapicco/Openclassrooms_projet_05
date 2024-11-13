@@ -15,3 +15,4 @@ Faire ses premiers pas sur le langage JavaScript.
 - Ajouter des Event Listeners sur les flèches
 - Ajouter des bullet points au slider
 - Modifier le slide au clic sur le bouton
+- Mettez en place le défilement infini sur le carrousel
